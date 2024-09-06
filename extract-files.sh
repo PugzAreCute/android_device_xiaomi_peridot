@@ -95,6 +95,10 @@ function blob_fixup() {
 	    [ "$2" = "" ] && return 0
             "${PATCHELF_0_17_2}" --add-needed "libhidlbase_shim.so" "${2}"
             ;;
+        vendor/lib64/vendor.libdpmframework.so)
+	    [ "$2" = "" ] && return 0
+            "${PATCHELF}" --add-needed "libhidlbase_shim.so" "${2}"
+            ;;
         *)
             return 1
             ;;
