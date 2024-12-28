@@ -41,9 +41,9 @@ TARGET_CORE_GMS_EXTRAS := false
 RISING_MAINTAINER := AtharvaSwamy
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="peridot_global-user 14 UKQ1.240116.001 V816.0.9.0.UNPMIXM release-keys" \
+    BuildDesc="peridot_global-user 14 UKQ1.240116.001 V816.0.10.0.UNPMIXM release-keys" \
     DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
     RisingChipset="8sGEN3" \
     RisingMaintainer="AtharvaSwamy"
 
-BUILD_FINGERPRINT := POCO/peridot_global/peridot:14/UKQ1.240116.001/V816.0.9.0.UNPMIXM:user/release-keys
+BUILD_FINGERPRINT := POCO/peridot_global/peridot:14/UKQ1.240116.001/V816.0.10.0.UNPMIXM:user/release-keys
