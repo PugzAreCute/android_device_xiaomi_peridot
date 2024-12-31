@@ -191,11 +191,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.common.thread \
-    android.hardware.biometrics.common.util \
-    android.hardware.biometrics.common.util.vendor \
-    android.hardware.biometrics.fingerprint-V3-ndk.vendor \
-    android.hardware.biometrics.fingerprint-service.default
+    android.hardware.biometrics.fingerprint-service.xiaomi \
+    libudfpshandler:64
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
